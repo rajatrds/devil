@@ -126,7 +126,7 @@ def sarfraz():
     elif select =='2':
         method_crack():
     elif select =='3':
-        random_number()
+        random_number():
     elif select =='4':
        menu()
     elif select =='5':
