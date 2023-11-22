@@ -1,4 +1,4 @@
-#!/usr/bin/python
+9#!/usr/bin/python
 #Original written By Muhmmad Sarfraz
 
 import os,zlib
@@ -88,7 +88,7 @@ logo =                                          """
 \033[1;37m Owner   :            RDS
 \033[1;37m Facebook:            RDS
 \033[1;37m Github  :            RDS
-\033[1;37m Version :            19.8
+\033[1;37m Version :            19.9
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -102,7 +102,7 @@ def result(OKs,cps):
         print(' TOTAL OK: %s' % str(len(oks)))
         print(' TOTAL CP: %s' % str(len(cps)))
         print(47*'-')
-        input("Press enter to back SSB Menu ")
+        input("Press enter to back RDS Menu ")
         exit()
 
 def sarfraz():   
@@ -124,7 +124,7 @@ def sarfraz():
     if select =='1':
         method_crack()
     elif select =='2':
-        exit(' This is Option Soon available ... ')
+        method_crack():
     elif select =='3':
         random_number()
     elif select =='4':
@@ -147,7 +147,7 @@ def sarfraz():
     else:
         print('\n Select valid option ... ')
         time.sleep(2)
-        SSB(allkey)
+        RDS(allkey)
         
 def method_crack():
     global methods
